@@ -1,0 +1,13 @@
+{
+  "item.lotrmod.gold_ring": "Anillo de Oro",
+  "item.lotrmod.silver_ring": "Anillo de Plata",
+  "item.lotrmod.mithril_ring": "Anillo de Mithril",
+
+  "block.lotrmod.gondor_rock": "Piedra de Gondor",
+  "block.lotrmod.gondor_bricks": "Ladrillos de Gondor",
+  "block.lotrmod.mordor_rock": "Piedra de Mordor",
+  "block.lotrmod.mordor_bricks": "Ladrillos de Mordor",
+
+  "itemGroup.lotrmod.middle_earth_blocks_tab": "Bloques de la Tierra Media",
+  "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Miscelanea de la Tierra Media"
+}

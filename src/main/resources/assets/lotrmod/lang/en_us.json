@@ -1,0 +1,14 @@
+{
+  "item.lotrmod.gold_ring": "Gold Ring",
+  "item.lotrmod.silver_ring": "Silver Ring",
+  "item.lotrmod.mithril_ring": "Mithril Ring",
+
+  "block.lotrmod.gondor_rock": "Gondor Rock",
+  "block.lotrmod.gondor_bricks": "Gondor Bricks",
+  "block.lotrmod.mordor_rock": "Mordor Rock",
+  "block.lotrmod.mordor_bricks": "Mordor Bricks",
+
+
+  "itemGroup.lotrmod.middle_earth_blocks_tab": "Middle-Earth Blocks",
+  "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Middle-Earth Miscellaneus"
+}

@@ -1,5 +1,8 @@
 package net.rwinters110.lotrmod;
 
+import net.rwinters110.lotrmod.block.ModBlocks;
+import net.rwinters110.lotrmod.item.ModCreativeModeTabs;
+import net.rwinters110.lotrmod.item.Moditems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -45,6 +48,11 @@ public class lotrmod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -72,7 +80,11 @@ public class lotrmod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) { }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(Moditems.GOLD_RING);
+            event.accept(Moditems.SILVER_RING);
+            event.accept(Moditems.MITHRIL_RING);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
