@@ -1,13 +1,29 @@
 {
-  "item.lotrmod.gold_ring": "Anillo de Oro",
-  "item.lotrmod.silver_ring": "Anillo de Plata",
-  "item.lotrmod.mithril_ring": "Anillo de Mithril",
-
   "block.lotrmod.gondor_rock": "Piedra de Gondor",
   "block.lotrmod.gondor_bricks": "Ladrillos de Gondor",
   "block.lotrmod.mordor_rock": "Piedra de Mordor",
   "block.lotrmod.mordor_bricks": "Ladrillos de Mordor",
+  "block.lotrmod.tin_ore": "Mena de estaño",
+  "block.lotrmod.deepslate_tin_ore": "Mena de estaño de pizarra profunda",
+  "block.lotrmod.raw_tin_block": "Bloque de estaño en bruto",
+  "block.lotrmod.mithril_ore": "Mena de Mithril",
+  "block.lotrmod.deepslate_mithril_ore": "Mena de Mithril de pizarra profunda",
+  "block.lotrmod.raw_mithril_block": "Bloque de mithril en bruto",
+
+  "item.lotrmod.raw_tin": "Estaño en bruto",
+  "item.lotrmod.tin_ingot": "Lingote de Estaño",
+  "item.lotrmod.raw_mithril": "Mithril en bruto",
+  "item.lotrmod.mithril_ingot": "Lingote de Mithril",
+
+  "item.lotrmod.gold_ring": "Anillo de Oro",
+  "item.lotrmod.silver_ring": "Anillo de Plata",
+  "item.lotrmod.mithril_ring": "Anillo de Mithril",
+
+  "item.lotrmod.lembas": "Lembas",
 
   "itemGroup.lotrmod.middle_earth_blocks_tab": "Bloques de la Tierra Media",
-  "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Miscelanea de la Tierra Media"
+  "itemGroup.lotrmod.middle_earth_material_items_tab": "Materiales de la Tierra Media",
+  "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Miscelanea de la Tierra Media",
+  "itemGroup.lotrmod.middle_earth_food_tab": "Comida de la Tierra Media"
+
 }

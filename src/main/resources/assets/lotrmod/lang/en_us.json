@@ -1,14 +1,30 @@
 {
-  "item.lotrmod.gold_ring": "Gold Ring",
-  "item.lotrmod.silver_ring": "Silver Ring",
-  "item.lotrmod.mithril_ring": "Mithril Ring",
-
   "block.lotrmod.gondor_rock": "Gondor Rock",
   "block.lotrmod.gondor_bricks": "Gondor Bricks",
   "block.lotrmod.mordor_rock": "Mordor Rock",
   "block.lotrmod.mordor_bricks": "Mordor Bricks",
+  "block.lotrmod.tin_ore": "Tin Ore",
+  "block.lotrmod.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.lotrmod.raw_tin_block": "Raw Tin Block",
+  "block.lotrmod.mithril_ore": "Mithril Ore",
+  "block.lotrmod.deepslate_mithril_ore": "Deepslate Mithril Ore",
+  "block.lotrmod.raw_mithril_block": "Raw Mithril Block",
+
+  "item.lotrmod.raw_tin": "Raw Tin",
+  "item.lotrmod.tin_ingot": "Tin Ingot",
+  "item.lotrmod.raw_mithril": "Raw Mithril",
+  "item.lotrmod.mithril_ingot": "Mithril Ingot",
+
+  "item.lotrmod.gold_ring": "Gold Ring",
+  "item.lotrmod.silver_ring": "Silver Ring",
+  "item.lotrmod.mithril_ring": "Mithril Ring",
+
+  "item.lotrmod.lembas": "Lembas",
+
 
 
   "itemGroup.lotrmod.middle_earth_blocks_tab": "Middle-Earth Blocks",
-  "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Middle-Earth Miscellaneus"
+  "itemGroup.lotrmod.middle_earth_material_items_tab": "Middle-Earth Materials",
+  "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Middle-Earth Miscellaneus",
+  "itemGroup.lotrmod.middle_earth_food_tab": "Middle-Earth Food"
 }
