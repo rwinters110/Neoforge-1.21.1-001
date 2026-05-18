@@ -1,0 +1,14 @@
+{
+  "values": [
+    "lotrmod:gondor_rock",
+    "lotrmod:gondor_bricks",
+    "lotrmod:mordor_rock",
+    "lotrmod:mordor_bricks",
+    "lotrmod:tin_ore",
+    "lotrmod:deepslate_tin_ore",
+    "lotrmod:raw_tin_block",
+    "lotrmod:mithril_ore",
+    "lotrmod:deepslate_mithril_ore",
+    "lotrmod:raw_mithril_block"
+  ]
+}
