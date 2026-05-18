@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lotrmod:raw_mithril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "lotrmod:raw_mithril"
+  }
+}
