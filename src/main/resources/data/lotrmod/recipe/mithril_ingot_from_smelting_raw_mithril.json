@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "mithril_ingot",
+  "ingredient": {
+    "item": "lotrmod:raw_mithril"
+  },
+  "result": {
+    "id": "lotrmod:mithril_ingot"
+  }
+}
