@@ -6,24 +6,50 @@
   "block.lotrmod.tin_ore": "Mena de estaño",
   "block.lotrmod.deepslate_tin_ore": "Mena de estaño de pizarra profunda",
   "block.lotrmod.raw_tin_block": "Bloque de estaño en bruto",
-  "block.lotrmod.mithril_ore": "Mena de Mithril",
-  "block.lotrmod.deepslate_mithril_ore": "Mena de Mithril de pizarra profunda",
+  "block.lotrmod.mithril_ore": "Mena de mithril",
+  "block.lotrmod.deepslate_mithril_ore": "Mena de mithril de pizarra profunda",
   "block.lotrmod.raw_mithril_block": "Bloque de mithril en bruto",
+  "block.lotrmod.apple_crumble": "Tarta de manzana",
+  "block.lotrmod.cherry_pie": "Tarta de cerezas",
+  "block.lotrmod.berry_pie": "Tarta de frutos del bosque",
+  "block.lotrmod.keg": "Tonel",
 
   "item.lotrmod.raw_tin": "Estaño en bruto",
   "item.lotrmod.tin_ingot": "Lingote de Estaño",
   "item.lotrmod.raw_mithril": "Mithril en bruto",
   "item.lotrmod.mithril_ingot": "Lingote de Mithril",
+  "item.lotrmod.durnor": "Durnor",
 
-  "item.lotrmod.gold_ring": "Anillo de Oro",
-  "item.lotrmod.silver_ring": "Anillo de Plata",
-  "item.lotrmod.mithril_ring": "Anillo de Mithril",
+  "item.lotrmod.gold_ring": "Anillo de oro",
+  "item.lotrmod.silver_ring": "Anillo de plata",
+  "item.lotrmod.mithril_ring": "Anillo de mithril",
 
+  "item.lotrmod.apple_crumble": "Tarta de manzana",
+  "item.lotrmod.cherry_pie": "Tarta de cerezas",
+  "item.lotrmod.berry_pie": "Tarta de frutos del bosque",
+  "item.lotrmod.green_apple": "Manzana verde",
   "item.lotrmod.lembas": "Lembas",
+  "item.lotrmod.ale": "Cerveza Ale",
+
+  "container.lotrmod.keg": "Tonel",
+
+  "gui.lotrmod.keg.start": "Iniciar Destilación",
+  "gui.lotrmod.keg.stop": "Parar Destilación\nDebe haber elaborado una bebida al menos Poco cargado",
+  "gui.lotrmod.keg.alcohol": "Graduación alcohólica: %s%%",
+
+  "quality.lotrmod.empty": "Vacío",
+  "quality.lotrmod.weak": "Poco cargado",
+  "quality.lotrmod.light": "Ligero",
+  "quality.lotrmod.moderate": "Moderado",
+  "quality.lotrmod.strong": "Fuerte",
+  "quality.lotrmod.potent": "Potente",
+  "quality.lotrmod.unknown": "Desconocido",
 
   "itemGroup.lotrmod.middle_earth_blocks_tab": "Bloques de la Tierra Media",
   "itemGroup.lotrmod.middle_earth_material_items_tab": "Materiales de la Tierra Media",
   "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Miscelanea de la Tierra Media",
-  "itemGroup.lotrmod.middle_earth_food_tab": "Comida de la Tierra Media"
+  "itemGroup.lotrmod.middle_earth_food_tab": "Comida de la Tierra Media",
+  "itemGroup.lotrmod.middle_earth_utils_tab": "Utilidades de la Tierra Media"
+
 
 }

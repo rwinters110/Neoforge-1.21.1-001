@@ -9,22 +9,47 @@
   "block.lotrmod.mithril_ore": "Mithril Ore",
   "block.lotrmod.deepslate_mithril_ore": "Deepslate Mithril Ore",
   "block.lotrmod.raw_mithril_block": "Raw Mithril Block",
+  "block.lotrmod.apple_crumble": "Apple Crumble",
+  "block.lotrmod.cherry_pie": "Cherry Pie",
+  "block.lotrmod.berry_pie": "Berry Pie",
+  "block.lotrmod.keg": "Keg",
 
   "item.lotrmod.raw_tin": "Raw Tin",
   "item.lotrmod.tin_ingot": "Tin Ingot",
   "item.lotrmod.raw_mithril": "Raw Mithril",
   "item.lotrmod.mithril_ingot": "Mithril Ingot",
+  "item.lotrmod.durnor": "Durnor",
 
   "item.lotrmod.gold_ring": "Gold Ring",
   "item.lotrmod.silver_ring": "Silver Ring",
   "item.lotrmod.mithril_ring": "Mithril Ring",
 
+  "item.lotrmod.apple_crumble": "Apple Crumble",
+  "item.lotrmod.cherry_pie": "Cherry Pie",
+  "item.lotrmod.berry_pie": "Berry Pie",
+  "item.lotrmod.green_apple": "Apple",
   "item.lotrmod.lembas": "Lembas",
+  "item.lotrmod.ale": "Ale",
+
+  "container.lotrmod.keg": "Keg",
+
+  "gui.lotrmod.keg.start": "Start Brewing",
+  "gui.lotrmod.keg.stop": "Stop Brewing\nMust have brewed at least Weak quality",
+  "gui.lotrmod.keg.alcohol": "Alcohol content: %s%%",
+
+  "quality.lotrmod.empty": "Empty",
+  "quality.lotrmod.weak": "Weak",
+  "quality.lotrmod.light": "Light",
+  "quality.lotrmod.moderate": "Moderate",
+  "quality.lotrmod.strong": "Strong",
+  "quality.lotrmod.potent": "Potent",
+  "quality.lotrmod.unknown": "Unknown",
 
 
 
   "itemGroup.lotrmod.middle_earth_blocks_tab": "Middle-Earth Blocks",
   "itemGroup.lotrmod.middle_earth_material_items_tab": "Middle-Earth Materials",
   "itemGroup.lotrmod.middle_earth_items_miscellaneous_tab": "Middle-Earth Miscellaneus",
-  "itemGroup.lotrmod.middle_earth_food_tab": "Middle-Earth Food"
+  "itemGroup.lotrmod.middle_earth_food_tab": "Middle-Earth Food",
+  "itemGroup.lotrmod.middle_earth_utils_tab": "Middle-Earth Utils"
 }
