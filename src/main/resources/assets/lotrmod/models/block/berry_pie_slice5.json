@@ -1,0 +1,10 @@
+{
+	"parent": "block/cake_slice5",
+    "textures": {
+        "particle": "lotrmod:block/berry_pie_side",
+        "bottom": "lotrmod:block/berry_pie_bottom",
+        "top": "lotrmod:block/berry_pie_top",
+        "side": "lotrmod:block/berry_pie_side",
+        "inside": "lotrmod:block/berry_pie_inner"
+    }
+}
