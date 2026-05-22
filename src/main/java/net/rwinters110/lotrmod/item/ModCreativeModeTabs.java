@@ -4,7 +4,9 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -35,6 +37,16 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
+    public static final Supplier<CreativeModeTab> MIDDLE_EARTH_UTILS_TAB =
+            CREATIVE_MODE_TABS.register( "middle_earth_utils_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable( "itemGroup.lotrmod.middle_earth_material_items_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(lotrmod.MOD_ID, "middle_earth_blocks_tab"))
+                    .icon(() -> new ItemStack(Items.CRAFTING_TABLE))
+                    .displayItems((pParameters,pOutput) -> {
+                        pOutput.accept(ModBlocks.KEG);
+                    })
+                    .build());
+
     public static final Supplier<CreativeModeTab> MIDDLE_EARTH_MATERIAL_ITEMS_TAB =
             CREATIVE_MODE_TABS.register( "middle_earth_material_items_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable( "itemGroup.lotrmod.middle_earth_material_items_tab"))
@@ -45,6 +57,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Moditems.TIN_INGOT);
                         pOutput.accept(Moditems.RAW_MITHRIL);
                         pOutput.accept(Moditems.MITHRIL_INGOT);
+                        pOutput.accept(Moditems.DURNOR);
                     })
                     .build());
 
@@ -66,6 +79,10 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(lotrmod.MOD_ID, "middle_earth_blocks_tab"))
                     .icon(() -> new ItemStack(Moditems.LEMBAS.get()))
                     .displayItems((pParameters,pOutput) -> {
+                        pOutput.accept(Moditems.APPLE_CRUMBLE);
+                        pOutput.accept(Moditems.BERRY_PIE);
+                        pOutput.accept(Moditems.CHERRY_PIE);
+                        pOutput.accept(Moditems.GREEN_APPLE);
                         pOutput.accept(Moditems.LEMBAS);
                     })
                     .build());

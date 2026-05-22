@@ -12,4 +12,9 @@ public class ModFoodProperties {
             .effect(new MobEffectInstance(MobEffects.ABSORPTION, 2400, 0), 1.0F)
             .alwaysEdible()
             .build();
+
+    public static final FoodProperties GREEN_APPLE = new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.3F)
+            .build();
 }

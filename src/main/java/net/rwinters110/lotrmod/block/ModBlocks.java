@@ -4,11 +4,15 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.rwinters110.lotrmod.block.custom.KegBlock;
 import net.rwinters110.lotrmod.item.Moditems;
 import net.rwinters110.lotrmod.lotrmod;
 
@@ -42,6 +46,21 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> RAW_MITHRIL_BLOCK = registerBlock("raw_mithril_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
+    // Registro de tu tarta de manzana usando tu clase personalizada
+    public static final DeferredBlock<Block> APPLE_CRUMBLE = BLOCKS.register("apple_crumble",
+            () -> new ModCakeBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CAKE), 2, 0.75F));
+    // Registro de tu tarta de cerezas usando tu clase personalizada
+    public static final DeferredBlock<Block> CHERRY_PIE = BLOCKS.register("cherry_pie",
+            () -> new ModCakeBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CAKE), 2, 0.75F));
+    // Registro de tu tarta de frutos del bosque usando tu clase personalizada
+    public static final DeferredBlock<Block> BERRY_PIE = BLOCKS.register("berry_pie",
+            () -> new ModCakeBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CAKE), 2, 0.75F));
+    public static final DeferredBlock<Block> KEG = registerBlock("keg",
+            () -> new KegBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .strength(2.5f)
+                    .sound(SoundType.WOOD)
+                    .noOcclusion()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
