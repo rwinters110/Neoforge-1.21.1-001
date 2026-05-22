@@ -1,0 +1,10 @@
+{
+	"parent": "block/cake_slice3",
+    "textures": {
+        "particle": "lotrmod:block/apple_crumble_side",
+        "bottom": "lotrmod:block/apple_crumble_bottom",
+        "top": "lotrmod:block/apple_crumble_top",
+        "side": "lotrmod:block/apple_crumble_side",
+        "inside": "lotrmod:block/apple_crumble_inner"
+    }
+}
