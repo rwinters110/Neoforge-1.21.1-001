@@ -1,8 +1,13 @@
 package net.rwinters110.lotrmod;
 
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.rwinters110.lotrmod.block.ModBlocks;
+import net.rwinters110.lotrmod.block.entity.ModBlockEntities;
+import net.rwinters110.lotrmod.inventory.ModMenuTypes;
 import net.rwinters110.lotrmod.item.ModCreativeModeTabs;
 import net.rwinters110.lotrmod.item.Moditems;
+import net.rwinters110.lotrmod.recipe.ModRecipes;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -52,6 +57,10 @@ public class lotrmod {
 
         Moditems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModRecipes.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        modEventBus.addListener(this::registerScreens);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -92,5 +101,9 @@ public class lotrmod {
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+    }
+
+    private void registerScreens(net.neoforged.neoforge.client.event.RegisterMenuScreensEvent event) {
+        event.register(net.rwinters110.lotrmod.inventory.ModMenuTypes.KEG_MENU.get(), net.rwinters110.lotrmod.client.gui.inv.KegScreen::new);
     }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "lotrmod:keg_brewing",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "WWW"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:wheat"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "lotrmod:ale",
+    "count": 1
+  }
+}
